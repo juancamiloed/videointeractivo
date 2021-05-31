@@ -1,0 +1,10 @@
+{
+  "name": "videointeractivo_front",
+  "version": "1.0.0",
+  "description": "Trabajo TV",
+  "main": "public/main.js",
+  "scripts": {},
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

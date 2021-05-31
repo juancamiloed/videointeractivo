@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/stylelogin.css">
+
+    <title>Login Administrador</title>
+  </head>
+  <body>
+    <!--Header--> 
+    <nav class="navbar navbar-light" style="background-color: #f60000;">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img id="logouao" src="https://sitios.uao.edu.co/admisiones/wp-content/uploads/sites/20/2019/11/General-TEC-04.png" alt="logo-uao" width="90" height="auto" class="d-inline-block align-text-top float-left">
+          </a>
+        </div>
+      </nav>
+
+      <!--Contenido-->
+      <div style="align-items: center;" class="container-fluid row">
+        <div class="col text-center">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Logo_UAO.svg/1200px-Logo_UAO.svg.png" alt="img-uao" width="50%" height="auto">
+        </div>
+
+        <div id="contformulario" class="col d-flex justify-content-center">
+            <div id="formulario">
+                <h2 style="text-align:center; margin-bottom: 40px;">Inicio de sesión</h2>
+                <div class="input-group mb-3">
+                    <input id="usuario" type="text" class="form-control" placeholder="Nombre de usuario" aria-label="Username">
+                </div>
+                <div class="input-group mb-3">
+                    <input id="password" type="password" class="form-control" placeholder="Contraseña" aria-label="Username">
+                </div>
+                <button onclick="login()" style="width: 100%; background-color:#f60000; border: none; margin-top:25px;" type="button" class="btn btn-primary">Iniciar sesión</button>
+                <p id="error" style="color: red; text-align:center; margin-top:5px; display:none">Las credenciales son incorrectas</p>
+            </div>
+        </div>
+      </div>
+
+    <script src="login.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

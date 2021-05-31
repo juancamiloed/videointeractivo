@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+}
+
+#logouao {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#formulario {
+    width:60%;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    border-radius: 15px;
+    background-color: #f5f5f5;
+    align-items: center;
+}
