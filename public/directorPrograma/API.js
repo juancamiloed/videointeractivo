@@ -8,7 +8,7 @@ a la ruta de /crear.
 En API estan todas las peticiones que puede hacer el usuario, a través de las rutas del Backend.
 
 */
-const API_URL = 'localhost:9000/'
+const API_URL = 'http://localhost:9000'
 
  const getEstudiantes = async () => {
   try {
